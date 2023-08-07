@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg width="46" height="126" viewBox="0 0 46 126" fill="none" xmlns="http://www.w3.org/2000/svg">
-<circle cx="9.54397" cy="89.544" r="35.544" transform="rotate(-180 9.54397 89.544)" fill="#079646"/>
-<circle cx="-1.78299" cy="25.217" r="25.217" transform="rotate(-180 -1.78299 25.217)" fill="#079646"/>
+<svg width="83" height="188" viewBox="0 0 83 188" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Bubbles Corner">
+<ellipse id="Bubble2" cx="53.3159" cy="53.3159" rx="53.3159" ry="53.3159" transform="matrix(1 0 0 -1 0 188)" fill="#079646"/>
+<ellipse id="Bubble1" cx="37.8255" cy="37.8255" rx="37.8255" ry="37.8255" transform="matrix(1 0 0 -1 32.481 76.0193)" fill="#079646"/>
+</g>
 </svg>
