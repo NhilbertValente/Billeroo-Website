@@ -11,6 +11,10 @@
     background-color: #079646;
   }
 
+.main-page {
+    background-color: #079646;
+}
+
 .home-image {
     height: 40px;
     margin-top: 24px;
@@ -123,3 +127,18 @@
     width: 446.25px;
     height: 397.5px;
 }
+
+.about-us-page {
+    background-color: #079646;
+}
+
+@media (max-width: 1200px) {
+    /* .home-background {
+        width: auto;
+        height: auto; */
+    /* } */
+    .home-pic {
+        display: none;
+    }
+
+  } 
