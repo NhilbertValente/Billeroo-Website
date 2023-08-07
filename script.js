@@ -75,6 +75,9 @@ function handleScroll() {
       if (element.classList.contains("sample19")){
         element.classList.add('home-text22');
       }
+      if (element.classList.contains("sample20")){
+        element.classList.add('home-text28');
+      }
     }
   });
 }

@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+    list-style: none;
+    text-decoration: none;
+    background-color: #079646;
+  }
+
+.home-image {
+    height: 40px;
+    margin-top: 24px;
+    margin-left: 24px;
+}
+
+.home-button1, .home-button2, .home-button3 {
+    margin-top: 32px;
+    font-size: medium;
+    font-weight: 500;
+    color: white;
+}
+
+.home-heading1 {
+    margin-top: 120px;
+    margin-left: 120px;
+    font-weight: bolder;
+    background-color: transparent;
+    color: white;
+    opacity: 0;
+    animation: fadeLeft 3s forwards;
+}
+@keyframes fadeLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-120px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.home-heading2{
+    margin-top: 192px;
+    margin-left: 120px;
+    font-weight: 400;
+    background-color: transparent;
+    color: white;
+    opacity: 0;
+    animation: fadeUp 4s forwards;
+  }
+  
+  @keyframes fadeUp {
+    from {
+        opacity: 0;
+        transform: translateX(-120px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.home-image {
+    background-size: cover;
+}
+
+.home-background {
+    width: 899px;
+    height: 458px;
+    margin-top: 98px;
+    margin-left: 24px;
+    
+}
+  
+#Connector1{
+    stroke-dasharray: 100%;
+    stroke-dashoffset: 100%;
+    animation: line-anim 5s forwards infinite, connector-play 5s forwards infinite alternate; /* Both animations have the same duration */
+}
+@keyframes line-anim {
+    to {
+        stroke-dashoffset: 0;
+    }
+}
+@keyframes connector-play {
+    0% {
+        stroke-dashoffset: 100%; /* Set the offset to 100% at the beginning (same as line-anim end) */
+    }
+    100% {
+        stroke-dashoffset: 0; /* Set the offset to 0 at the end (same as line-anim start) */
+    }
+}
+
+#Connector1, #Connector2{
+    stroke-dasharray: 100%;
+    stroke-dashoffset: 100%;
+    animation: line-anim 5s backwards infinite, connector-play 5s backwards infinite alternate; /* Both animations have the same duration */
+}
+@keyframes line-anim {
+    to {
+        stroke-dashoffset: 0;
+    }
+}
+@keyframes connector-play {
+    0% {
+        stroke-dashoffset: 100%; /* Set the offset to 100% at the beginning (same as line-anim end) */
+    }
+    100% {
+        stroke-dashoffset: 0; /* Set the offset to 0 at the end (same as line-anim start) */
+    }
+}
+
+
+.home-pic {
+    background-color: transparent;
+    margin-top: 120px;
+    margin-left: -72px;
+    width: 446.25px;
+    height: 397.5px;
+}
