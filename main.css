@@ -32,7 +32,20 @@
   color: white;
 }
 
-.home-heading1 {
+.sample1, .sample2 {
+  animation: appear 100s forwards;
+}
+
+@keyframes appear {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 100;
+  }
+}
+
+.animated-home-heading1 {
   margin-top: 120px;
   margin-left: 120px;
   font-weight: bolder;
@@ -44,7 +57,7 @@
 @keyframes fadeLeft {
   from {
     opacity: 0;
-    transform: translateX(-120px);
+    transform: translateX(-240px);
   }
   to {
     opacity: 1;
@@ -52,7 +65,7 @@
   }
 }
 
-.home-heading2 {
+.animated-home-heading2 {
   margin-top: 184px;
   margin-left: 120px;
   font-weight: 400;
@@ -65,7 +78,7 @@
 @keyframes fadeUp {
   from {
     opacity: 0;
-    transform: translateX(-120px);
+    transform: translateX(-240px);
   }
   to {
     opacity: 1;
@@ -223,12 +236,13 @@
 }
 
 .about-us-bubble {
-    overflow: visible;
     width: 83px; 
     height: 188px;
 }
 
 #grad {
+    border: white;
+    border-width: 5px;
     border-radius: 12px;
     width: auto;
     height: auto;
@@ -239,26 +253,159 @@
     background-image: linear-gradient(to bottom right, #98E19A, #C5F5C2);
 }
 
+.agent-mnmg-title {
+    color: white;
+    text-align: center;
+    margin-top: 96px;
+}
+
 .agent-mnmg-content {
+    text-align: center;
     width: 480px;
     height: 200px;
     color: white;
-    margin-top: 96px;
-}
-
-.agent-mnmg-title {
-    color: white;
-    margin-top: 96px;
+    margin-top: 160px;
 }
 
 .agent-mnmg-image {
+    margin-left: -24px;
     width: 600px;
     height: auto;
 }
 
 .agent-mnmg-bg {
-    margin-top: 1px;
+    margin-left: -85px;
+    margin-right: 1px;
     text-align: right;
-    width: 605px;
+    width: 720px;
     height: auto;
 }
+
+#why {
+  background-image: linear-gradient(to bottom,  #FCF7F1 35%, #079646);
+}
+
+#slogan {
+  background-image: linear-gradient(to top,  #E7F7E8, #079646);
+}
+
+.why-choose-text {
+  margin-top: 16px;
+  margin-bottom: 24px;
+  font-weight: bold;
+  color: #263238;
+  text-align: center;
+  text-shadow: 0px 5px 3px rgba(0, 0, 0, 0.25);
+}
+
+.why-choose-img {
+  width: 588px;
+  height: 85px;
+}
+
+.PCI-DSS {
+  width: auto;
+  height: 400px;
+  margin-left: 40px;
+  margin-right: 40px;
+  border-radius: 12px;
+  border: 2.5px solid #079646;
+  background: #98E19A;
+}
+
+.Consumer {
+  width: auto;
+  height: 400px;
+  margin-left: 40px;
+  margin-right: 40px;
+  border-radius: 12px;
+  border: 2.5px solid #079646;
+  background: #98E19A;
+}
+
+.Global {
+  width: auto;
+  height: 400px;
+  margin-left: 40px;
+  margin-right: 40px;
+  border-radius: 12px;
+  border: 2.5px solid #079646;
+  background: #98E19A;
+}
+
+.Report {
+  width: auto;
+  height: 400px;
+  margin-left: 40px;
+  margin-right: 40px;
+  border-radius: 12px;
+  border: 2.5px solid #079646;
+  background: #98E19A;
+}
+
+.bg-container {
+  width: 579px;
+  height: 270px;
+}
+
+.why-title {
+  margin-bottom: 136px;
+  width: 480px;
+  color: #079646;
+}
+
+.why-text {
+  margin-top: 288px;
+  color: #079646;
+  width: 480px;
+  font-size: 16px;
+}
+
+.slogan {
+  width: 1232px;
+  height: auto;
+  border-radius: 18px;
+  border: 3px solid #98E19A;
+  margin-left: 48px;
+  margin-right: 48px;
+}
+
+.why-image {
+  margin-left: 80px;
+}
+
+.why-slogan-text {
+  margin-left: -96px;
+  margin-top: 96px;
+  opacity: 75%;
+  color: white;
+}
+
+.contact-text {
+  color: white;
+  margin-top: 120px;
+  width: 488px;
+}
+
+.contact-us {
+  font-weight: bold;
+  margin-top: 40px;
+  color: white;
+  stroke: #98E19A;
+  text-shadow: 0px 5px 3px rgba(0, 0, 0, 0.25);
+}
+
+#foot {
+  background-image: linear-gradient(to top,  #53BD5B, #079646);
+}
+
+.contact-icon {
+  margin-left: 64px;
+}
+
+.c-text {
+  color: white;
+  font-size: 24px;
+  font-weight: 500;
+}
+

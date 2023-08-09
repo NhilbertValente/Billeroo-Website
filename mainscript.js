@@ -19,10 +19,10 @@ function handleScroll() {
   animatedTextElements.forEach((element) => {
     if (isElementInViewport(element)) {
       if (element.classList.contains("sample1")){
-        element.classList.add('.home-heading1, .animated-home-heading1');
+        element.classList.add('animated-home-heading1');
       }        
       if (element.classList.contains("sample2")){
-        element.classList.add('.home-heading2, .animated-home-heading2');
+        element.classList.add('animated-home-heading2');
       }
       if (element.classList.contains("sample3")){
         element.classList.add('home-background');

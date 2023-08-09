@@ -1,0 +1,31 @@
+#foot-bg {
+    background-image: linear-gradient(to bottom,  #079646 20%, #53BD5B);
+  }
+  
+  .contact-links {
+    fill: white;
+    width: 36px;
+    margin-left: 64px;
+  }
+  
+  .contact-icon {
+    margin-left: 64px;
+  }
+  
+  .contact-title {
+    color: white;
+  }
+  
+  .contact-content {
+    color: white;
+    margin-top: 48px;
+  }
+  
+  .contact-contain {
+    margin-left: 120px;
+  }
+  
+  .contact-copyright {
+    color: white;
+  }
+  
