@@ -30,17 +30,9 @@
           </div>
         </div>
       </div>
-      <div class="row">
-        <div class="row z-1">
-          <div class="col-md-8">
-            <div class="h1 animate sample1">The Biller's Platform</div>
-            <div class="h2 animate sample2">
-              Making your global online payment easy.
-            </div>
-          </div>
-        </div>
-        <div class="row z-0 home-background">
-          <div class="animate img-fluid overflow-x-hidden">
+      <div class="row pb-5">
+        <div class="row z-0 pt-5 mt-5 home-background">
+          <div class="animate overflow-x-hidden">
             <svg
               viewBox="0 0 899 458"
               fill="none"
@@ -210,43 +202,57 @@
             </svg>
           </div>
         </div>
+
+        <div class="row overflow-x-hidden main-text1 z-2" id="change1">
+          <div class="h1 animate sample1">The Biller's Platform</div>
+        </div>
+        <div class="row overflow-x-hidden main-text2 z-2" id="change2">
+          <div class="h2 animate sample2">
+            Making your global online payment easy.
+          </div>
+        </div>
         <div class="row z-1">
           <div class="col-md-4 offset-md-8 homepage">
             <div class="img-fluid home-pic">
-              <img src="./public/external/MainPageImage.svg" alt="Image" />
+              <img
+                src="./public/external/MainPageImage.svg"
+                alt="Image"
+                class="img-fluid"
+              />
             </div>
           </div>
         </div>
       </div>
+
+      <!-- About Us -->
+
       <div class="row about-us-page">
-        <div class="col z-1 img-fluid about-us-image">
+        <div class="col z-1 about-us-image">
           <img
             src="./public/external/Cellphone Image.png"
             alt="Cellphone Image"
+            class="img-fluid"
           />
         </div>
         <div class="col">
-          <div class="row z-1 d-flex justify-content-end">
-            <div class="about-us-design">
-              <?xml version="1.0" encoding="UTF-8" standalone="no"?><svg
-                viewBox="0 0 96 96"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <circle cx="86.4583" cy="19.544" r="35.544" fill="#079646" />
-                <circle cx="73.9699" cy="76.7025" r="18.7326" fill="#079646" />
-                <circle cx="25.217" cy="31.3119" r="25.217" fill="#079646" />
-                <circle cx="38.4259" cy="69.978" r="12.0081" fill="#079646" />
-              </svg>
-            </div>
+          <div class="row z-1 overflow-x-hidden d-flex justify-content-end">
+            <img
+              src="./public/external/bubbles.svg"
+              alt="Bubbles"
+              class="about-us-design img-fluid"
+            />
           </div>
           <div class="row h1 about-us-title">About Us</div>
           <div class="row mt-4 about-us-what">
             <div class="z-1 h2">What is Billeroo?</div>
           </div>
           <div class="row z-0">
-            <div class="img-fluid about-us-bg">
-              <img src="./public/external/Background.png" alt="bg-white" />
+            <div class="about-us-bg">
+              <img
+                src="./public/external/Background.png"
+                alt="bg-white"
+                class="img-fluid"
+              />
             </div>
           </div>
           <div class="row mt-5 p about-us-content">
@@ -255,30 +261,58 @@
           </div>
         </div>
       </div>
-      <div class="row agent-management">
+
+      <!-- End of About Us -->
+
+      <!-- Agent Management -->
+
+      <div class="row">
         <div class="col">
-          <div class="row rounded border border-white border-2 grad">
-            <div class="col z-1 img-fluid agent-mnmg-image">
+          <div
+            class="row rounded border border-white border-2 grad"
+            id="agent-mnmg-pic"
+          >
+            <div class="z-1 col-6 text-end agent-mnmg-image">
               <img
                 src="./public/external/Image Agent Mgmt.png"
                 alt="Agent Management"
+                class="img-fluid"
               />
             </div>
-            <div class="col rounded agent-mnmg text-center">
-              <div class="h1 agent-mnmg-title">Agent Management</div>
-              <div class="p mt-5 agent-mnmg-content">
-                Equip your agents with their own payment channels, track
-                performance, set controls, and manage commissions and payouts.
+            <div class="col-6" id="agent">
+              <div class="row z-0">
+                <div class="col text-end">
+                  <img
+                    src="public/external/Agent Background.svg"
+                    alt="Background"
+                    class="float-end agent-bg"
+                  />
+                </div>
+              </div>
+              <div class="row">
+                <div class="col z-1 agent-mnmg text-center">
+                  <div class="h1 agent-mnmg-title">Agent Management</div>
+                  <div class="p agent-mnmg-content">
+                    Equip your agents with their own payment channels, track
+                    performance, set controls, and manage commissions and
+                    payouts.
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
+
+      <!-- End of Agent Management -->
+
+      <!-- Why Choose Billeroo? -->
+
       <div class="row why-page" id="why">
         <div class="col">
           <div class="row d-flex justify-content-center my-5">
-            <div class="h1 z-1 mt-2 why-choose-text">Why Choose Billeroo?</div>
-            <div class="z-0 img-fluid why-choose-img">
+            <div class="h1 z-1 mt-3 why-choose-text">Why Choose Billeroo?</div>
+            <div class="z-0 why-choose-img">
               <svg
                 viewBox="0 0 588 85"
                 fill="none"
@@ -300,11 +334,15 @@
             </div>
           </div>
           <div class="row">
-            <div class="row">
+            <div class="row d-flex justify-content-evenly" id="row1">
               <div class="col rounded text-center mx-5 my-2 why-col">
                 <div class="row my-5 why-img">
-                  <div class="z-2 img-fluid">
-                    <img alt="image" src="./public/external/PCI DSS.svg" />
+                  <div class="z-2">
+                    <img
+                      alt="image"
+                      src="./public/external/PCI DSS.svg"
+                      class="img-fluid"
+                    />
                   </div>
                 </div>
                 <div class="row d-flex justify-content-center why-row">
@@ -331,8 +369,12 @@
               </div>
               <div class="col rounded text-center mx-5 my-2 why-col">
                 <div class="row my-5 why-img">
-                  <div class="z-2 img-fluid">
-                    <img alt="image" src="./public/external/Global.svg" />
+                  <div class="z-2">
+                    <img
+                      alt="image"
+                      src="./public/external/Global.svg"
+                      class="img-fluid"
+                    />
                   </div>
                 </div>
                 <div class="row d-flex justify-content-center why-row">
@@ -360,17 +402,23 @@
               </div>
             </div>
             <div class="row">
-              <div
-                class="col z-2 d-flex justify-content-center img-fluid contact-img"
-              >
-                <img src="./public/external/Contact Us.png" alt="Contact Us" />
+              <div class="col z-2 d-flex justify-content-center contact-img">
+                <img
+                  src="./public/external/Contact Us.png"
+                  alt="Contact Us"
+                  class="img-fluid"
+                />
               </div>
             </div>
-            <div class="row">
+            <div class="row d-flex justify-content-evenly" id="row2">
               <div class="col rounded text-center mx-5 my-2 why-col">
                 <div class="row my-5 why-img">
-                  <div class="z-2 img-fluid">
-                    <img alt="image" src="./public/external/Payment.svg" />
+                  <div class="z-2">
+                    <img
+                      alt="image"
+                      src="./public/external/Payment.svg"
+                      class="img-fluid"
+                    />
                   </div>
                 </div>
                 <div class="row d-flex justify-content-center why-row">
@@ -397,8 +445,12 @@
               </div>
               <div class="col rounded text-center mx-5 my-2 why-col">
                 <div class="row my-5 why-img">
-                  <div class="z-2 img-fluid">
-                    <img alt="image" src="./public/external/Report.svg" />
+                  <div class="z-2">
+                    <img
+                      alt="image"
+                      src="./public/external/Report.svg"
+                      class="img-fluid"
+                    />
                   </div>
                 </div>
                 <div class="row d-flex justify-content-center why-row">
@@ -406,7 +458,6 @@
                   <div class="fs-6 z-1 why-text">
                     Track payment collection the way you like it.
                   </div>
-                  <div class="fs-6 why-invi">------</div>
                 </div>
                 <div class="row">
                   <div class="z-0 bg-container">
@@ -426,23 +477,27 @@
             </div>
           </div>
           <div class="row my-5 py-3 rounded slogan">
-            <div class="col-4 d-flex justify-content-end">
-              <div class="why-image img-fluid">
-                <img src="./public/external/Curious.png" alt="" />
+            <div class="col-4 text-center">
+              <div class="why-image">
+                <img
+                  src="./public/external/Curious.png"
+                  alt=""
+                  class="img-fluid"
+                />
               </div>
             </div>
             <div class="col-8 text-center">
-              <div class="fs-5 fw-medium mx-5 why-slogan-text">
+              <div class="h4 fw-normal why-slogan-text">
                 Turning your website into a business tool can be your greatest
                 technology improvement. Aside from allowing you to run the
                 business 24/7, it also enables you to reach global customers.
               </div>
             </div>
           </div>
-          <div class="row">
+          <div class="row" id="row3">
             <div class="col mx-5 mt-5">
               <div
-                class="row h3 d-flex justify-content-center text-center contact-text"
+                class="row h3 text-center d-flex justify-content-center contact-text"
               >
                 We're eager to help you enhance your online payment collection
                 experience!
@@ -453,36 +508,45 @@
                 Contact Billeroo Now!
               </div>
             </div>
-            <div class="col me-3">
+            <div class="col me-3 contact-image">
               <img
                 src="./public/external/Agent Staff.svg"
                 alt="Agent Calling"
+                class="img-fluid"
               />
             </div>
           </div>
         </div>
       </div>
 
+      <!-- End of Why Choose Billeroo -->
+
+      <!-- Footer -->
+
       <div class="row foot">
         <div class="row">
-          <div class="col mt-5 ms-3 p-5">
-            <img src="public/external/broo11.png" alt="Billeroo Icon" />
+          <div class="col mt-5 ms-3 ps-5 billeroo">
+            <img
+              src="public/external/broo11.png"
+              alt="Billeroo Icon"
+              class="img-fluid w-50"
+            />
           </div>
         </div>
-        <div class="flex-row d-flex mb-3 justify-content-evenly">
-          <div class="flex-column d-flex mb-3 c-text">
-            <div class="fs-4 fw-semibold mt-3">About Us</div>
+        <div class="row mb-3 justify-content-evenly" id="foot-content">
+          <div class="col mx-5 p-5 c-text">
+            <div class="fs-4 fw-semibold">About Us</div>
             <div class="fs-6 mt-3">Terms and Policies</div>
             <div class="fs-6 mt-3">Frequently Asked Questions</div>
             <div class="fs-6 mt-3">How-To-Guides</div>
           </div>
-          <div class="flex-column d-flex mb-3 c-text">
-            <div class="fs-4 fw-semibold mt-3">Policies</div>
+          <div class="col mx-5 p-5 c-text">
+            <div class="fs-4 fw-semibold">Policies</div>
             <div class="fs-6 mt-3">Cookie Policy</div>
             <div class="fs-6 mt-3">Privacy Policy</div>
           </div>
-          <div class="flex-column d-flex mb-3 c-text">
-            <div class="fs-4 fw-semibold mt-3">Contact Us</div>
+          <div class="col mx-5 p-5 c-text">
+            <div class="fs-4 fw-semibold">Contact Us</div>
             <div class="fs-6 mt-3">
               Room 905 Vicente Madrigal Building 6793 Ayala Ave., Makati City
               Philippines 1226
@@ -491,14 +555,14 @@
             <div class="fs-6 mt-3">support@billeroo.com</div>
           </div>
         </div>
-        <div class="row my-5">
-          <div class="col">
+        <div class="row mt-5" id="foot-row">
+          <div class="col mb-5">
             <div
-              class="flex-row d-flex mb-3 justify-content-between home-icon"
+              class="flex-row d-flex justify-content-between home-icon"
             ></div>
           </div>
-          <div class="col">
-            <div class="flex-row d-flex mb-3 justify-content-evenly">
+          <div class="col mb-5">
+            <div class="flex-row d-flex justify-content-evenly">
               <div class="fs-6 mt-3 copyright">
                 Copyright © All rights reserved
               </div>
@@ -513,6 +577,8 @@
           </div>
         </div>
       </div>
+
+      <!-- End of Footer -->
     </div>
 
     <script src="./mainscript.js"></script>

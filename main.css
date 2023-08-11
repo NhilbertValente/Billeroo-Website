@@ -45,8 +45,15 @@
   }
 }
 
+.main-text1 {
+  margin-top: -360px;
+}
+
+.main-text2 {
+  margin-top: -280px;
+}
+
 .animated-home-heading1 {
-  margin-top: 120px;
   margin-left: 120px;
   font-weight: bolder;
   background-color: transparent;
@@ -54,6 +61,7 @@
   opacity: 0;
   animation: fadeLeft 3s forwards;
 }
+
 @keyframes fadeLeft {
   from {
     opacity: 0;
@@ -85,14 +93,9 @@
   }
 }
 
-.home-image {
-  background-size: cover;
-}
-
 .home-background {
   width: 936px;
   height: 458px;
-  margin-top: -120px;
   opacity: 0;
   animation: appear 3s forwards;
 }
@@ -150,7 +153,7 @@
 .home-pic {
     background-color: transparent;
     text-align: right;
-    margin-top: -360px;
+    margin-top: -384px;
     margin-left: -64px;
     width: 448px;
     height: 400px;
@@ -194,7 +197,7 @@
 }
 
 .about-us-design {
-    text-align: right;
+    margin-right: -16px;
     width: 144px;
     height: 144px;
 }
@@ -233,12 +236,6 @@
   color: #079646;
 }
 
-.about-us-bubble {
-    margin-right: -72px;
-    width: 83px; 
-    height: 188px;
-}
-
 .grad {
     margin-top: 88px;
     margin-bottom: 80px;
@@ -247,22 +244,28 @@
     background-image: linear-gradient(to bottom right, #98E19A, #C5F5C2);
 }
 
+.agent-mnmg {
+    margin-top: -336px;
+    margin-left: 48px;
+}
+
 .agent-mnmg-title {
     color: white;
-    margin-top: 160px;
+    margin-bottom: 80px;
+    margin-right: 28px;
 }
 
 .agent-mnmg-content {
     color: white;
-
+    margin-right: 28px;
 }
 
-.agent-mnmg {
-    background-color: #079646;
+.agent-bg {
+  margin-right: -8px;
 }
 
-.agent-mnmg-bg {
-  width: 100%;
+.agent-mnmg-image {
+  margin-top: 40px;
 }
 
 #why {
@@ -270,7 +273,7 @@
 }
 
 .why-choose-text {
-  margin-bottom: -56px;
+  margin-bottom: -64px;
   font-weight: bold;
   color: #263238;
   text-align: center;
@@ -287,10 +290,6 @@
   background: #98E19A;
 }
 
-.why-invi {
-  opacity: 0;
-}
-
 .bg-container {
   margin-top: -40px;
 }
@@ -301,22 +300,29 @@
 
 .why-text {
   color: #079646;
+  height: 24px;
 }
 
 .why-row {
   margin-bottom: -160px;
 }
 
+.contact-img {
+  margin-top: -64px;
+  margin-bottom: -64px;
+}
+
 .slogan {
   border: 3px solid #98E19A;
   margin-left: 120px;
   margin-right: 120px;
-  background-image: linear-gradient(to top,  #E7F7E8, #079646);
+  background-image: linear-gradient(to bottom,  #079646, #92CA91, #079646);
 }
 
 .why-slogan-text {
   color: white;
-  margin-top: 148px;
+  margin-top: 108px;
+  margin-right: 48px;
 }
 
 .contact-text {
@@ -325,7 +331,6 @@
 }
 
 .contact-us {
-  margin-top: 40px;
   color: white;
   stroke: #98E19A;
   text-shadow: 0px 5px 3px rgba(0, 0, 0, 0.25);
@@ -345,6 +350,11 @@
   width: 360px;
 }
 
+.billeroo {
+  max-width: 40%;
+  max-height: 40%;
+}
+
 .copyright {
   color: white;
 }
@@ -353,4 +363,191 @@
   fill: white;
   width: 120px;
   height: 120px;
+}
+
+
+
+@media (max-width: 576px) {
+
+  /* Main Page */
+
+  .home-pic {
+    display: none;
+  }
+  #change1, #change2 {
+    margin-left: 30%;
+  }
+  .animated-home-heading1{
+    margin-left: 0px;
+    margin-top: 200px;
+    width: 48px;
+    font-size: 40px;
+  }
+  .animated-home-heading2 {
+    margin-left: 0px;
+    margin-top: 280px;
+    width: 0px;
+  }
+
+  /* End of Main Page */
+
+  /* About Us */
+
+  .about-us-image {
+    display: none;
+  }
+
+  /* About Us */
+
+  /* Agent Management */
+
+  .grad {
+    margin-top: 48px;
+    margin-bottom: 48px;
+  }
+
+  .agent-bg {
+    display: none;
+  }
+
+  .agent-mnmg-image {
+    margin-top: -28px;
+    margin-right: 0px;
+    padding-top: 48px;
+    width: 100%;
+  }
+
+  .agent-mnmg {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    margin-top: 0px;
+    margin-left: 0px;
+  }
+
+  .agent-mnmg-title {
+    text-align: end;
+    color: #079646;
+    margin-bottom: 24px;
+    margin-right: 0px;
+    margin-left: 120px;
+    margin-top: 24px;
+    width: 152px;
+  }
+
+  .agent-mnmg-content {
+    color: #079646;
+    margin-bottom: 24px;
+    margin-left: 64px;
+    margin-right: 0px;
+    width: 320px;
+  }
+
+  /* End of Agent Management */
+
+  /* Why Choose Billeroo */
+
+  .why-choose-text {
+    margin-bottom: -56px;
+  }
+
+  .why-choose-img {
+    max-width: 85%;
+    max-height: 85%;
+  }
+
+  .why-img {
+    max-width: 85%;
+    max-height: 85%;
+    margin-left: 32px;
+  }
+
+  .why-col {
+    max-width: 85%;
+    max-height: 85%;
+  }
+
+  .why-title{
+    margin-top: -16px;
+  }
+
+  .why-text {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    height: 64px;
+  }
+
+  .slogan {
+    border: 3px solid #98E19A;
+    margin-left: 24px;
+    margin-right: 24px;
+  }
+  
+  .why-slogan-text {
+    color: white;
+    margin-top: 16px;
+    margin-right: 0px;
+    font-size: 16px;
+  }
+
+  #row1, #row2 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #row3 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+  }
+
+  .contact-text {
+    color: #263238;
+    font-weight: bold;
+    margin-top: 0px;
+    margin-left: 8px;
+    width: 440px;
+  }
+  
+  .contact-us {
+    color: white;
+    stroke: #98E19A;
+    text-shadow: 0px 5px 3px rgba(0, 0, 0, 0.25);
+    margin-left: -96px;
+    margin-top: 416px;
+  }
+
+  .contact-image {
+    margin-top: -456px;
+    margin-left: 72px;
+    max-width: 75%;
+    max-height: 75%;
+  }
+
+  /* End of Why Choose Billeroo */
+
+  /* Footer */
+
+  .billeroo {
+    max-width: 75%;
+    max-height: 75%;
+  }
+  
+  .foot {
+    margin-top: 160px;
+  }
+
+  #foot-content {
+    flex-direction: row;
+  }
+
+  #foot-row {
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* End of Footer */
+
 }
